@@ -303,6 +303,28 @@
                     "code": "<td nowrap>...</td>"
                 }
             ]
+        },{
+            "title": "এইচটিএমএল আইফ্রেম",
+            "items": [
+                {
+                    "definition": "আইফ্রেম সিনটেক্স",
+                    "code": "<iframe src="url" title="description">"
+                }, {
+                    "definition": "আইফ্রেম Height এবং Width এট্রিবিউট",
+                    "code": "<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>"
+                }, {
+                    "definition": "আইফ্রেম বর্ডারের ব্যবহার",
+                    "code": "<iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>"
+                }, {
+                    "definition": "আইফ্রেম বর্ডার রিমুভ",
+                    "code": "<iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>"
+                }, {
+                    "definition": "আইফ্রেম লিংকের টার্গেট হিসেবে ব্যবহার",
+                    "code": "<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+                    <p><a href="https://devsonket.com" target="iframe_a">Devsonket.com</a></p>"
+                }
+            ]
         }
+        
     ]
 }
